@@ -55,6 +55,7 @@ public class FractionCalculatorPage extends TestContext {
 
 
     public String i_verify_the_displayed() {
+        System.out.println("verify");
         return driver.findElement(By.xpath("//*[@id=\"content\"]/p[2]")).getText();
     }
 
